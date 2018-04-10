@@ -1,7 +1,5 @@
 package com.sckeedoo.certification;
 
-import java.util.Arrays;
-
 public class Exercise12 {
 
     public static void main(String[] args) {
@@ -12,5 +10,7 @@ public class Exercise12 {
        * would help you print the string in reverse order.
        * Output: "nhoJ,evetS,boB,annA,anaiD,egroeG,nodoD,cuintohalP"
        * */
+       StringBuilder sbName = new StringBuilder(names);
+       System.out.println(sbName.reverse());
     }
 }

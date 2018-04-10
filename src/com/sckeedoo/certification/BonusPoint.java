@@ -1,6 +1,8 @@
 package com.sckeedoo.certification;
 
+import java.util.*;
 public class BonusPoint {
+
 
     /**
      *
@@ -19,6 +21,52 @@ public class BonusPoint {
      *    123321        super lucky
      */
     public static void main(String[] args) {
-
+    	
+    	Scanner scanner = null;
+    	
+    	try{
+	    	scanner =	new Scanner(System.in);
+	    	
+	   
+	    	StringBuilder ticket = new StringBuilder(scanner.nextLine());
+	    	StringBuilder reversedTicket = ticket.reverse(); 
+	    	
+	        
+	    	StringBuilder firstHalf = new StringBuilder(ticket.substring(0, 3));
+	    	StringBuilder secondHalf = new StringBuilder(ticket.substring(3, 6));
+	        
+	    	boolean polindrome = false;
+	        int sumFirst = 0, sumSecond = 0;
+	    
+	        for (int i = 0; i < firstHalf.length();i++) {
+	        	sumFirst += Character.getNumericValue(firstHalf.charAt(i));
+	        }
+	    
+	        for (int i = 0; i < secondHalf.length();i++) {
+	        	sumSecond += Character.getNumericValue(secondHalf.charAt(i));
+	        }
+	    
+	        if (ticket.toString().compareTo(reversedTicket.toString()) ==0){
+	        	polindrome = true;
+	        }
+	        
+	        
+	        if (sumFirst == sumSecond)
+	        {
+	        	if (polindrome) {
+	        		System.out.println(ticket+ "    super lucky" );
+	        	}
+	        	else {
+	        		System.out.println(ticket+ "    lucky" );
+	        	}        	
+	        }
+	        else {
+	        	System.out.println(ticket+ "    simple ticket" );
+	        }
+    	}
+    	finally {
+    		if(scanner!=null)
+    			scanner.close();
+    	}
     }
 }
