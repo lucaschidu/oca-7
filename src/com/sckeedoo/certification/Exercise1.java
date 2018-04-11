@@ -8,7 +8,7 @@ public class Exercise1 {
 		{
 			return " is equal to ";
 		}
-		else if (comparissonResult == -1) {
+		else if (comparissonResult < 0) {
 			return " is lexicographically less than ";
 		}
 		else {
