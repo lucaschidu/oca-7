@@ -12,5 +12,15 @@ public class Exercise12 {
        * would help you print the string in reverse order.
        * Output: "nhoJ,evetS,boB,annA,anaiD,egroeG,nodoD,cuintohalP"
        * */
+       String[] strArray = names.split(",");
+       StringBuilder sb = new StringBuilder();
+       for (int index = 0; index < strArray.length; index++){
+           if (index > 0)
+               sb.append(',');
+           for (int indW = strArray[index].length() - 1; indW >= 0; indW--){
+               sb.append(strArray[index].charAt(indW));
+           }
+       }
+        System.out.println(sb);
     }
 }

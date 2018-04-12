@@ -10,5 +10,13 @@ public class Exercise1 {
         would help you determine which of the strings above lexicographically
         precede the second and print that string.
         */
+       if (alice.compareTo(bob) > 0){
+           System.out.println(bob);
+           System.out.println(alice);
+       }
+       else{
+           System.out.println(alice);
+           System.out.println(bob);
+       }
     }
 }

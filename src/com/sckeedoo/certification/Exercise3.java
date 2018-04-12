@@ -10,5 +10,7 @@ public class Exercise3 {
 
         Perform the replacement and print the result.
         */
+       String s = abracadabra.replace('a', 'A');
+        System.out.println(s);
     }
 }
