@@ -4,6 +4,8 @@ public class Exercise7 {
 
     public static void main(String[] args) {
         String names = "John,Steve,Bob,Anna,Diana,George,Dodon,Plahotniuc";
+        String steve = "Steve";
+        String george = "George";
 
        /* Use JDK documentation for String class and find a method that
         would help you identify the position of word 'Steve' and 'George' in the names string.
@@ -11,5 +13,9 @@ public class Exercise7 {
         Then find another method that would help you print the string from between those positions.
         Expected output: "Steve,Bob,Anna,Diana,George"
         */
+        int intSteve = names.indexOf(steve);
+        int intGeorge = names.lastIndexOf(george);
+        String sub = names.substring(intSteve, intGeorge).concat( george);
+        System.out.println(sub);
     }
 }

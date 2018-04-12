@@ -11,5 +11,13 @@ public class Exercise11 {
        *
        * Output: "John,Steve,Bob,Anna,Diana,George,Dodon,Plahotniuc"
        * */
+       StringBuilder sb = new StringBuilder();
+       for (int index = 0; index < names.length; index++){
+           if (index > 0)
+               sb.append(',');
+           sb.append(names[index]);
+
+       }
+        System.out.println(sb);
     }
 }

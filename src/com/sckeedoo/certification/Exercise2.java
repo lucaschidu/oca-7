@@ -9,5 +9,10 @@ public class Exercise2 {
         would help you determine all the indexes of the letter 'a' in abracadabra.
         Output: Print all letter 'a' indexes on a separate line.
         */
+        for(int index = 0; index < abracadabra.length() ; index++){
+            if (abracadabra.charAt(index) == 'a'){
+                System.out.println(index);
+            }
+        }
     }
 }
