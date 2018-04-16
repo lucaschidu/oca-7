@@ -11,5 +11,6 @@ public class Exercise7 {
         Then find another method that would help you print the string from between those positions.
         Expected output: "Steve,Bob,Anna,Diana,George"
         */
+        System.out.println(names.substring(names.indexOf("Steve"), names.indexOf("George")+"George".length()));
     }
 }

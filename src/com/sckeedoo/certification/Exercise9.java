@@ -11,5 +11,7 @@ public class Exercise9 {
             'Maria is not part of the names variable'
             'Steve is part of the names variable'
             */
+        System.out.println("'Maria" + (names.contains("Maria")?" is part of the names variable'":" is not part of the names variable'"));
+        System.out.println("'Steve" + (names.contains("Steve")?" is part of the names variable'":" is not part of the names variable'"));
     }
 }
