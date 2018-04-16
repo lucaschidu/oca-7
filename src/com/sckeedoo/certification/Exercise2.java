@@ -12,7 +12,7 @@ public class Exercise2 {
         */
        for (index = 0; index<abracadabra.length();index++) { 
     	   	if (index == abracadabra.indexOf('a',index)) {
-    	   		System.out.println(abracadabra.indexOf('a',index));
+    	   		System.out.println("a is found in 'abracadabra' on index " + abracadabra.indexOf('a',index));
     	   	}
        }
     }
