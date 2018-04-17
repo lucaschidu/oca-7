@@ -10,5 +10,7 @@ public class Exercise8 {
             a) all lower cases: 'john,steve,bob...'
             b) all upper cases: 'JOHN,STEVE,BOB'
             */
+        System.out.println(names.toLowerCase());
+        System.out.println(names.toUpperCase());
     }
 }

@@ -1,5 +1,7 @@
 package com.sckeedoo.certification;
 
+import java.sql.SQLOutput;
+
 public class Exercise7 {
 
     public static void main(String[] args) {
@@ -11,5 +13,20 @@ public class Exercise7 {
         Then find another method that would help you print the string from between those positions.
         Expected output: "Steve,Bob,Anna,Diana,George"
         */
+        int indexS = 0;
+        int indexG = 0;
+
+        String array[] = names.split(",");
+        for (int i = 0; i < array.length; i++) {
+            if (array[i].equals("Steve")) {
+                indexS = i + 1;
+            } else if (array[i].equals("George")) {
+                indexG = i + 1;
+            }
+        }
+        System.out.println("Position Steve " + indexS);
+        System.out.println("Position George " + indexG);
+        System.out.println(names.substring(names.indexOf("Steve"), names.indexOf("George") + "George".length()));
+
     }
 }

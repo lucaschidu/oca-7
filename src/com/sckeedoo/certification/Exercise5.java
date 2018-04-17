@@ -10,5 +10,9 @@ public class Exercise5 {
 
         Print every name on a separate line.
         */
+        String array[] = names.split(",");
+        for (String nume : array) {
+            System.out.println(nume);
+        }
     }
 }
