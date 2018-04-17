@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5cb7fba9-811c-4dff-8957-32dc1d69b9e4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sckeedoo/certification/BonusPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sckeedoo/certification/BonusPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sckeedoo/certification/Exercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sckeedoo/certification/Exercise1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sckeedoo/certification/Exercise11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sckeedoo/certification/Exercise11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sckeedoo/certification/Exercise12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sckeedoo/certification/Exercise12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sckeedoo/certification/Exercise2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sckeedoo/certification/Exercise2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sckeedoo/certification/Exercise3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sckeedoo/certification/Exercise3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sckeedoo/certification/Exercise4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sckeedoo/certification/Exercise4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sckeedoo/certification/Exercise5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sckeedoo/certification/Exercise5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sckeedoo/certification/Exercise6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sckeedoo/certification/Exercise6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sckeedoo/certification/Exercise7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sckeedoo/certification/Exercise7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sckeedoo/certification/Exercise8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sckeedoo/certification/Exercise8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sckeedoo/certification/Exercise9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sckeedoo/certification/Exercise9.java" afterDir="false" />
-    </list>
+    <list default="true" id="5cb7fba9-811c-4dff-8957-32dc1d69b9e4" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
