@@ -11,5 +11,16 @@ public class Exercise6 {
         Then find another method that would help you print the string from that position till the end.
         Expected output: "Diana,George,Dodon,Plahotniuc"
         */
+        int index = 0;
+        String array[] = names.split(",");
+        for (int i = 0; i < array.length; i++) {
+            if (array[i].equals("Diana")) {
+                index = i + 1;
+            }
+
+        }
+        System.out.println(index);
+        System.out.println(names.substring(names.indexOf("Diana")));
+
     }
 }
