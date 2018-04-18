@@ -11,5 +11,7 @@ public class Exercise6 {
         Then find another method that would help you print the string from that position till the end.
         Expected output: "Diana,George,Dodon,Plahotniuc"
         */
+       int index = names.indexOf("Diana");
+        System.out.println(names.substring(index));
     }
 }

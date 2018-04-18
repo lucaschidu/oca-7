@@ -11,5 +11,12 @@ public class Exercise11 {
        *
        * Output: "John,Steve,Bob,Anna,Diana,George,Dodon,Plahotniuc"
        * */
+       StringBuilder new_names_string = new StringBuilder();
+
+       for(String single : names){
+           new_names_string.append(single+", ");
+       }
+
+        System.out.println(new_names_string.toString());
     }
 }

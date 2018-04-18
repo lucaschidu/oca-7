@@ -11,5 +11,8 @@ public class Exercise7 {
         Then find another method that would help you print the string from between those positions.
         Expected output: "Steve,Bob,Anna,Diana,George"
         */
+       int begin = names.indexOf("Steve");
+       int finish = names.indexOf("George") + "George".length();
+        System.out.println(names.substring(begin, finish));
     }
 }

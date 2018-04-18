@@ -10,5 +10,8 @@ public class Exercise1 {
         would help you determine which of the strings above lexicographically
         precede the second and print that string.
         */
+
+       String output = alice.compareTo(bob) < 0 ? "alice" : "bob";
+       System.out.println("The string that precedes other is: " + output);
     }
 }

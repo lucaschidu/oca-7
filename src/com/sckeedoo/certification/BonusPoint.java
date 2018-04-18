@@ -19,6 +19,47 @@ public class BonusPoint {
      *    123321        super lucky
      */
     public static void main(String[] args) {
+        int ticket = 123320;
+        int length = String.valueOf(ticket).length();
+        int array_length = length-1;
+        int[] digits = new int[length];
+        int n = 0;
 
+        while(ticket != 0) {
+            digits[array_length-n] = ticket%10;
+            ticket /= 10;
+            n++;
+        }
+
+        showResult(array_length, digits);
+
+    }
+
+    public static int[] checkDigits(int array_length, int[] digits){
+        int sum1 = 0, sum2 = 0;
+        int palindrome = 1;
+        for(int i=0; i<=array_length/2; i++){
+             sum1 = sum1 + digits[i];
+             sum2 = sum2 + digits[array_length-i];
+             if(palindrome == 1){
+                 palindrome = digits[i] == digits[array_length-i] ? 1:0;
+             }
+        }
+        int sum_result = sum1 == sum2 ? 1 : 0;
+
+        int[] result = {sum_result, palindrome};
+        return  result;
+    }
+
+    public static void showResult(int array_length, int[] digits){
+        int[] result = checkDigits(array_length, digits);
+        if(result[0] == 1){
+            if(result[1] ==1 )
+                System.out.println("You got super lucky ticket");
+            else
+                System.out.println("You got lucky ticket");
+        }else {
+            System.out.println("You get simple ticket");
+        }
     }
 }
